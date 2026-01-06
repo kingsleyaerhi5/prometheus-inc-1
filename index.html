@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prometheus Tech Incorporated | Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Accessibility: skip to content link -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <!-- Logo using <img> (placeholder image file path) -->
+      <a class="brand" href="index.html" aria-label="Prometheus Tech Incorporated Home">
+        <img
+          class="brand__logo"
+          src="images/prometheus-logo.png"
+          alt="Prometheus Tech Incorporated logo"
+          width="56"
+          height="56"
+        />
+        <div class="brand__text">
+          <span class="brand__name">Prometheus Tech</span>
+          <span class="brand__sub">Incorporated</span>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" aria-current="page" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="generators.html">Generators</a></li>
+          <li><a class="nav__link" href="services.html">Services</a></li>
+          <li><a class="nav__link" href="industries.html">Industries</a></li>
+          <li><a class="nav__link" href="about.html">About</a></li>
+          <li><a class="nav__link nav__link--cta" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <h1 id="hero-title" class="hero__title">Portable fusion power for homes, vehicles, and industry.</h1>
+
+        <p class="hero__lead">
+          <strong>Prometheus Tech Inc</strong> builds portable commercial and domestic fusion reactor power generators.
+          We also provide consultation and installation services for residential properties, transport vehicles + space / intersteller engines,
+          and specialized commercial deployments.
+        </p>
+
+        <p class="hero__note">
+          Our work focuses on planning, integration, commissioning, and long-term support—so you can deploy power with
+          confidence, in line with our planets green house preservation and sustainability.
+        </p>
+
+        <a class="button" href="contact.html">Request a Quote</a>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title" class="section__title">About Prometheus Tech</h2>
+
+        <!-- Introduction using different HTML elements -->
+        <p>
+          We partner with homeowners, fleet operators, and businesses to design deployment plans that meet real-world
+          constraints such as site layout, energy demand, installation timeline, and ongoing service needs.
+        </p>
+
+        <blockquote class="quote">
+          “Engineering-driven energy solutions that prioritize safety, reliability, and integration.”
+        </blockquote>
+
+        <p>
+          Whether you need a single generator for a home installation or a multi-unit deployment for a commercial site, or a space / intersteller engine
+          we help define requirements and build a practical implementation roadmap.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="services-title">
+      <div class="container">
+        <h2 id="services-title" class="section__title">Services & Key Features</h2>
+        <p class="section__lead">A quick overview of what we offer:</p>
+
+        <!-- Unordered list of services/features -->
+        <ul class="list">
+          <li>Fusion generator consultation: feasibility, load planning, and deployment strategy</li>
+          <li>Installation services for homes and commercial facilities</li>
+          <li>Integration planning for transport vehicles and specialized applications</li>
+          <li>Commissioning support and operational handover</li>
+          <li>Maintenance programs and lifecycle service planning</li>
+        </ul>
+
+        <div class="links">
+          <a class="link" href="services.html">Learn more about Services</a>
+          <a class="link" href="generators.html">Explore Generators</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="next-title">
+      <div class="container">
+        <h2 id="next-title" class="section__title">Explore</h2>
+        <p class="section__lead">More to come:</p>
+
+        <!-- Links to other pages -->
+        <ul class="link-list">
+          <li><a href="generators.html">Generators</a></li>
+          <li><a href="services.html">Consultation & Installation</a></li>
+          <li><a href="industries.html">Industries</a></li>
+          <li><a href="about.html">About the Company</a></li>
+          <li><a href="contact.html">Contact / Quote Request</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__text">
+        © <span id="year">2026</span> Prometheus Tech Incorporated. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // preemtive js code for date ...time.
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
